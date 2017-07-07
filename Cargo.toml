@@ -1,0 +1,15 @@
+[package]
+name = "behnam-globs-test"
+version = "0.1.0"
+authors = ["Behnam Esfahbod <behnam@zwnj.org>"]
+repository = "https://github.com/behnam/rust-globs-test/blob/master/src/lib.rs"
+
+exclude = [
+    "/foo",
+    "foo",
+    "foo/",
+]
+
+[dependencies]
+glob = "^0"
+globset = "^0"
